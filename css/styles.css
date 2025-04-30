@@ -83,6 +83,7 @@ p {
     line-height: 1.5;
     font-size: 16px;
     letter-spacing: 0.02em;
+    display: block;
     text-decoration: none;
     padding: 24px 0;
     color: #2e2f42;
