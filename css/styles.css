@@ -67,6 +67,17 @@ p {
   padding: 24px 0;
 }
 
+.logo-top:active::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
+}
+
 .logo-black {
   color: #2e2f42;
 }
@@ -97,23 +108,10 @@ p {
   color: #404bbf;
 }
 
-/*
 .header-link:active {
   text-decoration: underline;
   text-decoration-thickness: 4px;
   text-underline-offset: 28px;
-}
-*/
-
-.header-link:active::after {
-  content: "";
-  width: 100%;
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  height: 4px;
-  background-color: #404bbf;
-  border-radius: 2px;
 }
 
 .header-address {
@@ -142,23 +140,10 @@ p {
   color: #404bbf;
 }
 
-/*
 .address-link:active {
   text-decoration: underline;
   text-decoration-thickness: 4px;
   text-underline-offset: 28px;
-}
-*/
-
-.address-link:active::after {
-  content: "";
-  width: 100%;
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  height: 4px;
-  background-color: #404bbf;
-  border-radius: 2px;
 }
 
 .main-button-area {
