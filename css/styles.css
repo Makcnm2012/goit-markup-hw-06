@@ -67,17 +67,6 @@ p {
   padding: 24px 0;
 }
 
-.logo-top:active::after {
-  content: "";
-  width: 100%;
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  height: 4px;
-  background-color: #404bbf;
-  border-radius: 2px;
-}
-
 .logo-black {
   color: #2e2f42;
 }
@@ -112,6 +101,22 @@ p {
   text-decoration: underline;
   text-decoration-thickness: 4px;
   text-underline-offset: 28px;
+}
+
+.header-link-current {
+  position: relative;
+  color: #404bbf;
+}
+
+.header-link-current::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
 }
 
 .header-address {
@@ -387,8 +392,7 @@ p {
   background-color: #4d5ae5;
 }
 
-.portfolio-list-image-text:hover,
-.portfolio-list-image-text:focus {
+.portfolio-list-item:hover .portfolio-list-image-text {
   transform: translateY(0%);
 }
 
