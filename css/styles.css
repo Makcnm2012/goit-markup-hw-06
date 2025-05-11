@@ -820,7 +820,7 @@ p {
   }
 
   .portfolio-list-item {
-    width: calc((100% - 24px) / 2);
+    width: calc((100% - 24px) / 3);
   }
 
   .footer-container {
@@ -841,6 +841,34 @@ p {
 
 @media screen and (min-width: 768px) {
   .mobile-menu-button {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+  .mobile-window-container {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+  .mobile-window {
     position: absolute;
     width: 1px;
     height: 1px;
