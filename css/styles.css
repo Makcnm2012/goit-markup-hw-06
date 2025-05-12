@@ -25,8 +25,10 @@ p {
 
 .container {
   max-width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section {
@@ -763,6 +765,12 @@ p {
 }
 
 @media screen and (max-width: 1158px) {
+  .container {
+    max-width: 768px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
   .logo-top {
     margin-right: 120px;
   }
@@ -884,6 +892,10 @@ p {
 }
 
 @media screen and (max-width: 768px) {
+  .container {
+    max-width: 320px;
+  }
+
   .header-link {
     position: absolute;
     width: 1px;
